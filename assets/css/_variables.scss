@@ -1,0 +1,136 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --base-color: #e99022;
+    --white: #ffffff;
+    --black: #000000;
+    --red: #dc3131;
+    --light-red: #feedec;
+    --green: #2ebb79;
+    --crusoe-green: #d39121;
+    --yellow: #ffea23;
+    --dark-gray: #232323;
+    --medium-gray: #7b7a7a;
+    --extra-medium-gray: #e4e4e4;
+    --light-gray: #a8a8a8;
+    --very-light-gray: #f7f7f7;
+    --light-medium-gray: #eaeaeb;
+    --charcoal-blue: #202329;
+    --slate-blue: #262b35;
+    --medium-slate-blue: #374162;
+    --extra-medium-slate-blue: #23262d;
+    --dark-slate-blue: #1f232c;
+    --extra-very-slate-blue: #161620;
+    --tussock-yellow: #BC8947;
+    --aluminium-grey: #80858F;
+    --solitude-blue: #F0F0F6;
+    --golden-yellow: #fd961e;
+    --selago: #eaedff;
+    --white-ice: #d8f5ef;
+    --cornflower-blue: #4B66F7;
+    --jade: #00AF6B;
+    --orange: #ef991f;
+    --alt-font: 'Space Grotesk', sans-serif;
+    --primary-font: 'Inter', sans-serif;
+}
+
+// font
+$alt-font: var(--alt-font);
+$primary-font: var(--primary-font);
+
+// color
+$base-color: var(--base-color);
+$white: var(--white);
+$black: var(--black);
+$red: var(--red);
+$light-red: var(--light-red);
+$green: var(--green);
+$crusoe-green: var(--crusoe-green);
+$yellow: var(--yellow);
+$dark-gray: var(--dark-gray);
+$medium-gray: var(--medium-gray);
+$extra-medium-gray: var(--extra-medium-gray);
+$light-gray: var(--light-gray);
+$very-light-gray: var(--very-light-gray);
+$light-medium-gray: var(--light-medium-gray);
+$charcoal-blue: var(--charcoal-blue);
+$slate-blue: var(--slate-blue);
+$medium-slate-blue: var(--medium-slate-blue);
+$extra-medium-slate-blue: var(--extra-medium-slate-blue);
+$dark-slate-blue: var(--dark-slate-blue);
+$extra-very-slate-blue: var(--extra-very-slate-blue);
+$tussock-yellow: var(--tussock-yellow);
+$aluminium-grey: var(--aluminium-grey);
+$solitude-blue: var(--solitude-blue);
+$golden-yellow: var(--golden-yellow);
+$selago: var(--selago);
+$white-ice: var(--white-ice);
+$cornflower-blue: var(--cornflower-blue);
+$jade: var(--jade);
+$orange: var(--orange);
+
+
+// media query type variables
+$media-max: max-width;
+$media-min: min-width;
+
+// social colors
+$social-colors: (
+    behance: #1769ff,
+    behance-square: #1769ff,
+    blogger: #ff8000,
+    codepen: #0ebeff,
+    deviantart: #05cc47,
+    digg: #262626,
+    dribbble: #ea4c89,
+    delicious: #205cc0,
+    email: #7d7d7d,
+    facebook: #3b5998,
+    facebook-square: #3b5998,
+    flickr: #ff0084,
+    flipboard: #e12828,
+    github: #4078c0,
+    google: #dc4a38,
+    google-plus: #dd4b39,
+    instagram: #FE1F49,
+    jsfiddle: #0084FF,
+    linkedin: #0077b5,
+    livejournal: #00b0ea,
+    medium: #00ab6c,
+    meneame: #ff6400,
+    mailru: #168de2,
+    odnoklassniki: #d7772d,
+    paypal: #003087,
+    pinterest: #CB2027,
+    pinterest-p: #CB2027,
+    print: #222222,
+    reddit: #ff4500,
+    reddit-square: #ff4500,
+    rss: #f2890a,
+    skype: #00aff0,
+    slack: #6ecadc,
+    snapchat: #fffc00,
+    soundcloud: #ff8800,
+    spotify: #1db954,
+    sms: #ffbd00,
+    sharethis: #95D03A,
+    stack-overflow: #f48024,
+    stumbleupon: #eb4924,
+    telegram: #0088cc,
+    trello: #0079bf,
+    tumblr: #32506d,
+    twitch: #6441a5,
+    twitter: #00aced,
+    twitter-square: #00aced,
+    vimeo: #1ab7ea,
+    vine: #00bf8f,
+    vk: #4c6c91,
+    wordpress: #21759b,
+    weibo: #ff9933,
+    whatsapp: #25d366,
+    xing: #1a7576,
+    youtube: #ff0000,
+    youtube-play: #ff0000
+);
