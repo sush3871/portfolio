@@ -3516,10 +3516,10 @@
         $('.scroll-point').css('height', Math.min(scrollPercentage, 100) + '%');
 
         /***** Theme demos button scroll to show *****/
-        var scrollPos = $(window).scrollTop();
-        if (scrollPos > 150) {
-            $('.theme-demos').fadeIn(600);
-        }
+        // var scrollPos = $(window).scrollTop();
+        // if (scrollPos > 150) {
+        //     $('.theme-demos').fadeIn(600);
+        // }
     }
     $(window).scroll(function () {
         scrollIndicator();
